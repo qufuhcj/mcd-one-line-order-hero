@@ -1,0 +1,17 @@
+# 凭证与本地配置（严禁提交真实 Token）
+mcp-config.json
+.env
+*.local.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 本地调试输出
+/tmp/
+*.log
