@@ -47,10 +47,21 @@
 }
 ```
 
-### 3️⃣ 安装 Skill
-将本仓库的 `SKILL.md` 与 `scripts/` 放入你的技能目录：
-- 💼 WorkBuddy 用户级技能：`~/.workbuddy/skills/mcd-order-hero/`
-- 🧩 其他 MCP Client：参考 `SKILL.md` 的工作流，将其作为系统提示词/规则文件加载
+### 3️⃣ 安装 Skill（三选一）
+
+**🗣️ 方式一：一句话安装（WorkBuddy 用户推荐）**
+直接把本仓库地址发给 WorkBuddy，说一句"帮我安装这个 Skill"，AI 会自动完成安装：
+```
+帮我安装这个 Skill：https://github.com/qufuhcj/mcd-one-line-order-hero
+```
+
+**⌨️ 方式二：一行命令安装**
+```bash
+git clone https://github.com/qufuhcj/mcd-one-line-order-hero.git ~/.workbuddy/skills/mcd-order-hero
+```
+
+**🧩 方式三：其他 MCP Client**
+将 `SKILL.md` 作为系统提示词/规则文件加载即可（Cursor / Cherry Studio / Trae 等）。
 
 ### 4️⃣ 开点！
 直接在对话框里说人话即可：
