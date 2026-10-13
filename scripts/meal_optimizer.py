@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-麦麦点餐参谋长 · 凑单优化引擎（meal_optimizer）
+一句话麦麦省钱点单侠 · 凑单优化引擎（meal_optimizer）
 
 在「预算硬约束」下，从门店实时菜单中搜索最优餐品组合：
   - 多目标：口味偏好匹配 × 预算利用率 × 营养均衡（热量/蛋白质）
@@ -234,7 +234,7 @@ def pretty_print(plans: list[Plan], budget: float, people: int):
 
 
 def main():
-    ap = argparse.ArgumentParser(description="麦麦点餐参谋长 · 凑单优化引擎")
+    ap = argparse.ArgumentParser(description="一句话麦麦省钱点单侠 · 凑单优化引擎")
     ap.add_argument("--menu", required=True, help="菜单 JSON（query-meals 整理结果）")
     ap.add_argument("--budget", type=float, required=True, help="总预算（元）")
     ap.add_argument("--people", type=int, default=1, help="就餐人数，默认 1")

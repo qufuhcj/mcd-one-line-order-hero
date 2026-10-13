@@ -1,12 +1,12 @@
-# 麦麦点餐参谋长 · MCD Meal Copilot
+# 一句话麦麦省钱点单侠 · MCD One-Line Order Hero
 
-> 一句话点麦当劳：**"两个人，60 块预算，想吃辣，半小时内送到"** —— 自动选店、一键领券、最优凑单、比价下单、订单跟踪，全流程一个 Skill 搞定。
+> 对 AI 说一句：**"两个人，60 块预算，想吃辣，半小时内送到"** —— 自动选店、一键领券、最优凑单、比价下单、订单跟踪，全流程一个 Skill 搞定。
 
 基于[麦当劳 MCP](https://github.com/M-China/mcd-mcp-server) 能力开发的点餐全链路 Copilot。市面上大多数省钱工具止步于"告诉你怎么点划算"，本项目的差异是：**算完直接帮你把单买了**。
 
 ## 为什么是它
 
-| 痛点 | 传统做法 | 麦麦点餐参谋长 |
+| 痛点 | 传统做法 | 一句话麦麦省钱点单侠 |
 |---|---|---|
 | 凑单凑到头大 | 自己在小程序里反复加减商品 | 优化引擎在预算硬约束下秒出 Top-3 组合 |
 | 优惠券散落各处 | 手动翻券包、逐个试 | `auto-bind-coupons` 一键领满 + 多方案核价对比 |
@@ -45,7 +45,7 @@
 
 ### 3. 安装 Skill
 将本仓库的 `SKILL.md` 与 `scripts/` 放入你的技能目录：
-- WorkBuddy 用户级技能：`~/.workbuddy/skills/mcd-meal-copilot/`
+- WorkBuddy 用户级技能：`~/.workbuddy/skills/mcd-order-hero/`
 - 其他 MCP Client：参考 `SKILL.md` 的工作流，将其作为系统提示词/规则文件加载
 
 ### 4. 开点
@@ -82,7 +82,7 @@ python3 scripts/meal_optimizer.py --menu examples/sample_menu.json \
 ## 项目结构
 
 ```
-mcd-meal-copilot/
+mcd-one-line-order-hero/
 ├── SKILL.md                  # Skill 编排指令（AI 的工作流大脑）
 ├── scripts/
 │   └── meal_optimizer.py     # 凑单优化引擎（纯标准库）
