@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 520" width="1600" height="520" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff7f6"/>
+      <stop offset="55%" stop-color="#fffdf7"/>
+      <stop offset="100%" stop-color="#fff8e8"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#da291c"/>
+      <stop offset="100%" stop-color="#ff6a3d"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffb400"/>
+      <stop offset="100%" stop-color="#ffd66b"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2fb344"/>
+      <stop offset="100%" stop-color="#5ed06a"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#da291c" flood-opacity="0.12"/>
+    </filter>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="1600" height="520" fill="url(#bg)"/>
+  <circle cx="1080" cy="90" r="190" fill="#ffc72c" opacity="0.10"/>
+  <circle cx="1450" cy="430" r="150" fill="#da291c" opacity="0.07"/>
+
+  <!-- 左侧文案区 -->
+  <g>
+    <rect x="80" y="86" width="392" height="46" rx="23" fill="#ffe8e5"/>
+    <circle cx="106" cy="109" r="7" fill="#da291c"/>
+    <text x="124" y="117" font-size="24" font-weight="700" fill="#c0210f">WorkBuddy Skill · 麦当劳 MCP</text>
+
+    <text x="80" y="206" font-size="72" font-weight="800" fill="#1d1d1f" letter-spacing="-1">一句话麦麦省钱点单侠</text>
+    <text x="80" y="256" font-size="27" font-weight="600" fill="#da291c">MCD One-Line Order Hero 🦸</text>
+
+    <text x="80" y="318" font-size="30" font-weight="600" fill="#4a4a4f">说一句话：自动选店领券、最优凑单、比价下单</text>
+
+    <g font-size="25" font-weight="700" fill="#3a3a3c">
+      <rect x="80" y="356" width="252" height="54" rx="14" fill="#ffffff" filter="url(#soft)"/>
+      <circle cx="106" cy="383" r="8" fill="#da291c"/>
+      <text x="126" y="392">预算硬约束凑单</text>
+
+      <rect x="348" y="356" width="224" height="54" rx="14" fill="#ffffff" filter="url(#soft)"/>
+      <circle cx="374" cy="383" r="8" fill="#ff9500"/>
+      <text x="394" y="392">一键领券核价</text>
+
+      <rect x="588" y="356" width="248" height="54" rx="14" fill="#ffffff" filter="url(#soft)"/>
+      <circle cx="614" cy="383" r="8" fill="#34c759"/>
+      <text x="634" y="392">下单支付闭环</text>
+    </g>
+
+    <text x="80" y="452" font-size="23" fill="#8a8a8e">30 块预算实测吃出 ¥44.5 的饭 —— 券后正好卡住预算，一分不多花</text>
+  </g>
+
+  <!-- 右侧卡片组 -->
+  <g filter="url(#shadow)">
+    <!-- 卡片1：推荐方案 -->
+    <g transform="translate(950 96) rotate(-4)">
+      <rect width="450" height="124" rx="20" fill="#ffffff"/>
+      <rect x="0" y="0" width="8" height="124" rx="4" fill="url(#red)"/>
+      <rect x="24" y="22" width="64" height="64" rx="14" fill="#ffe8e5"/>
+      <text x="38" y="64" font-size="30" font-weight="800" fill="#da291c">🍔</text>
+      <text x="106" y="52" font-size="22" font-weight="700" fill="#1d1d1f">麦香鸡+薯条买一送一</text>
+      <text x="106" y="92" font-size="19" font-weight="700" fill="#6e6e73">原价 ¥44.5 → 券后 ¥30.0</text>
+      <rect x="334" y="30" width="104" height="42" rx="21" fill="url(#red)"/>
+      <text x="386" y="58" font-size="21" font-weight="800" fill="#ffffff" text-anchor="middle">省¥14.5</text>
+      <rect x="334" y="80" width="104" height="26" rx="13" fill="#fff3d6"/>
+      <text x="386" y="99" font-size="16" font-weight="700" fill="#b8860b" text-anchor="middle">🥇 推荐方案</text>
+    </g>
+
+    <!-- 卡片2：引擎 Top-3 -->
+    <g transform="translate(980 232) rotate(2)">
+      <rect width="450" height="124" rx="20" fill="#fff8f7"/>
+      <rect x="0" y="0" width="8" height="124" rx="4" fill="#ff9500"/>
+      <rect x="24" y="22" width="64" height="64" rx="14" fill="#fff1e3"/>
+      <text x="38" y="64" font-size="30" font-weight="800" fill="#ff9500">🧮</text>
+      <text x="106" y="48" font-size="20" font-weight="600" fill="#1d1d1f">麦辣鸡腿堡 + 纯悦 · ¥30.0</text>
+      <text x="106" y="76" font-size="20" font-weight="600" fill="#8a8a8e">麦香鸡 + 蘸酱炸鸡 · ¥28.4</text>
+      <text x="106" y="104" font-size="20" font-weight="600" fill="#8a8a8e">龙焰鸡腿堡三件套 · ¥26.9</text>
+      <rect x="336" y="46" width="94" height="34" rx="17" fill="#fff3d6"/>
+      <text x="383" y="69" font-size="18" font-weight="700" fill="#b8860b" text-anchor="middle">Top-3</text>
+    </g>
+
+    <!-- 卡片3：下单闭环 -->
+    <g transform="translate(1010 368) rotate(-2)">
+      <rect width="450" height="112" rx="20" fill="#ffffff"/>
+      <rect x="0" y="0" width="8" height="112" rx="4" fill="url(#green)"/>
+      <rect x="24" y="24" width="64" height="64" rx="14" fill="#eafbe9"/>
+      <text x="38" y="66" font-size="30" font-weight="800" fill="#2fb344">🔗</text>
+      <text x="106" y="52" font-size="24" font-weight="700" fill="#1d1d1f">订单已创建 · 支付链接已生成</text>
+      <text x="106" y="90" font-size="19" font-weight="600" fill="#8a8a8e">取餐柜外带 · 可跟踪，随时一键取消</text>
+    </g>
+  </g>
+</svg>
